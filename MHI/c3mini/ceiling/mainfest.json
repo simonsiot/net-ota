@@ -6,7 +6,7 @@
       "chipFamily": "ESP32-C3",
       "ota": {
         "md5": "e9d5835cb7235af44792ec341692d080",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MHI/c3mini/ceiling/mhi-ac-ceiling-v20250926.ota.bin",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MHI/c3mini/ceiling/climate-mhi-ceiling-v20250926.ota.bin",
         "release_url": "",
         "summary": "首次上傳"
       }
