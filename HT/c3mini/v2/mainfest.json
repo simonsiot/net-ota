@@ -5,10 +5,10 @@
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "e9d5835cb7235af44792ec341692d080",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MHI/c3mini/wall/climate-mhi-wall-v20250926.ota.bin",
+        "md5": "c1b006b08e812e14f2cbfd12c9be8143",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/v2/climate-ht-v2-v250926.ota.bin",
         "release_url": "",
-        "summary": "首次上傳"
+        "summary": "首次上傳，免更新"
       }
     }   
   ]
