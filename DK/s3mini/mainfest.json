@@ -5,8 +5,8 @@
     {
       "chipFamily": "ESP32-S3",
       "ota": {
-        "md5": "003b2a804858878ca3314e66f5003674",
-        "path": "https://github.com/xangin/Daikin-ESPhome/raw/refs/heads/main/climate-dk.ota.bin",
+        "md5": "65e4bdfc401bd35b460e30f09468e942",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/DK/s3mini/climate-dk-v250926.ota.bin",
         "release_url": "",
         "summary": "首次上傳，免更新"
       }
