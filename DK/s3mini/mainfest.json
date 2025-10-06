@@ -1,6 +1,6 @@
 {
   "name": "SimonIoT.Daikin-AC",
-  "version": "2025.10.5",
+  "version": "2025.10.6",
   "builds": [
     {
       "chipFamily": "ESP32-S3",
