@@ -1,0 +1,16 @@
+{
+  "name": "SimonIoT.Daikin-AC",
+  "version": "2025.10.7",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32-C3",
+      "ota": {
+        "md5": "542f077b4997375a5899d20a8f361308",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/DK/c3mini/s3-ac-dk-s250924-e250903-p251006.ota.bin",
+        "release_url": "",
+        "summary": "首次上傳免更新"
+      }
+    }   
+  ]
+}
