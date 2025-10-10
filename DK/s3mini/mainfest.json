@@ -1,5 +1,5 @@
 {
-  "name": "SimonIoT.Daikin-AC",
+  "name": "SimonIoT-大金ESPhome模組",
   "version": "2025.10.10",
   "new_install_prompt_erase": false,
   "builds": [
