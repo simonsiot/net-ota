@@ -1,5 +1,5 @@
 {
-  "name": "SimonIoT.MHI-AC-Wall",
+  "name": "SimonIoT-三菱重工空調ESPhome模組",
   "version": "2025.9.26",
   "builds": [
     {
@@ -8,7 +8,7 @@
         "md5": "8af27c9dcda94a85582d53ebe41e2dad",
         "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MHI/c3mini/wall/climate-mhi-wall-v20250926.ota.bin",
         "release_url": "",
-        "summary": "# v2025.9.26\n ## 請注意!!OTA後需重新設定WiFi在家再更新!\n  ### 更新內容:\n - 首次上傳免更新"
+        "summary": "# v2025.9.26\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜\n  ### ✨更新內容:\n - 首次上傳免更新"
       }
     }   
   ]
