@@ -8,7 +8,7 @@
         "md5": "8af27c9dcda94a85582d53ebe41e2dad",
         "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MHI/c3mini/wall/climate-mhi-wall-v20250926.ota.bin",
         "release_url": "",
-        "summary": "首次上傳，免更新"
+        "summary": "# v2025.9.26\n ## 請注意!!OTA後需重新設定WiFi在家再更新!\n  ### 更新內容:\n - 首次上傳免更新"
       }
     }   
   ]
