@@ -1,5 +1,5 @@
 {
-  "name": "SimonIoT.HT-AC-V2",
+  "name": "SimonIoT-日立空調ESPhome模組-舊版",
   "version": "2025.9.26",
   "builds": [
     {
@@ -8,7 +8,7 @@
         "md5": "c1b006b08e812e14f2cbfd12c9be8143",
         "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/v2/climate-ht-v2-v250926.ota.bin",
         "release_url": "",
-        "summary": "首次上傳，免更新"
+        "summary": "# v2025.9.26\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜\n  ### ✨更新內容:\n - 首次上傳免更新"
       }
     }   
   ]
