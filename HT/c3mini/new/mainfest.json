@@ -5,8 +5,8 @@
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "2a5feb7a1aa4cfb03bfdb400768abd83",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/new/climate-ht-v20250926.ota.bin",
+        "md5": "17c444a3678209042afe07c08556c6bf",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/new/c3-ac-ht-s250929-e250903-v251010ota.bin",
         "release_url": "",
         "summary": "# v2025.10.10\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜\n  ### ✨更新內容:\n - SW版本更新至2025.9.29版本"
       }
