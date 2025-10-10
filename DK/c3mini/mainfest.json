@@ -1,15 +1,15 @@
 {
-  "name": "SimonIoT.Daikin-AC",
-  "version": "2025.10.7",
+  "name": "SimonIoT 大金ESPhome模組",
+  "version": "2025.10.10",
   "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "542f077b4997375a5899d20a8f361308",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/DK/c3mini/s3-ac-dk-s250924-e250903-p251006.ota.bin",
+        "md5": "eaec1e3a348511bcf0e9323218c0c212",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/DK/c3mini/c3-ac-dk-s250924-e250903-v251010.ota.bin",
         "release_url": "",
-        "summary": "# v2025.10.7\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜\n  ### ✨更新內容:\n - 首次上傳免更新"
+        "summary": "# v2025.10.10\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜\n  ### ✨更新內容:\n - 溫度調整改為0.5度一格\n"
       }
     }   
   ]
