@@ -9,7 +9,7 @@
         "md5": "542f077b4997375a5899d20a8f361308",
         "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/DK/s3mini/s3-ac-dk-s250924-e250903-p251006.ota.bin",
         "release_url": "",
-        "summary": "### 2025.10.6更新\n，[詳情見說明網頁](https://github.com/xangin/Daikin-ESPhome/)"
+        "summary": "# 請注意!! OTA後需重新設定WiFi\n ## 2025.10.10更新:\n 首次上傳免更新"
       }
     }   
   ]
