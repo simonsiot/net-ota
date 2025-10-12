@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT-三菱重工空調ESPhome模組-吊隱",
-  "version": "2025.9.26",
+  "version": "2025.10.10",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "751a80e65891b50906dcdbf42ea1dc93",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MHI/c3mini/ceiling/climate-mhi-ceiling-v20250926.ota.bin",
+        "md5": "27f4c6188934045e9d28aa2967218139",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MHI/c3mini/ceiling/c3-ac-mhi-ceiling-s250717-e250903-v251010.ota.bin",
         "release_url": "",
-        "summary": "# v2025.9.26\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)\n  ### ✨更新內容:\n - 首次上傳免更新"
+        "summary": "# v2025.10.10\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)\n  ### ✨更新內容:\n - 首次上傳免更新"
       }
     }   
   ]
