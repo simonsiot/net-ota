@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT-日立空調ESPhome模組",
-  "version": "2025.10.10",
+  "version": "2025.10.18",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "17c444a3678209042afe07c08556c6bf",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/new/c3-ac-ht-s250929-e250903-v251010.ota.bin",
+        "md5": "767dc1186f33504a5d3b15b0e5a7b1e1",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/new/c3-ac-ht-e250903-s251018-v251018.ota.bin",
         "release_url": "",
-        "summary": "# v2025.10.10\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)\n  ### ✨更新內容:\n - SW版本更新至2025.9.29版本"
+        "summary": "# v2025.10.18\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)\n  ### ✨更新內容:\n 1. SW version更新至2025.10.18\n 2. 新增重設運作時間、重設電量統計、重設濾網清潔小時按鈕\n 3. 新增凍結清洗開關(如果型號有支援)\n 4. 新增錯誤代碼、濾網清潔小時sensor實體"
       }
     }   
   ]
