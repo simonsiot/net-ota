@@ -1,15 +1,15 @@
 {
   "name": "SimonIoT-大金空調ESPhome模組",
-  "version": "2025.10.12",
+  "version": "2025.10.19",
   "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "7745c1ada2ba97e5cdf9fd3a37d3160a",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/DK/c3mini/c3-ac-dk-s251012-e250903-v251012.ota.bin",
+        "md5": "9804c33466d37a777ddc808372184ee8",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/DK/c3mini/c3-ac-dk-s251015-e251001-v251019.ota.bin",
         "release_url": "",
-        "summary": "# v2025.10.12\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)\n  ### ✨更新內容:\n - 首次上傳免更新\n"
+        "summary": "# v2025.10.19\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)\n  ### ✨更新內容:\n 1. ESPhome升級到2025.10.1\n 2. SW version更新至2025.10.15\n 3. 加回自動模式\n"
       }
     }   
   ]
