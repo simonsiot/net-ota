@@ -5,7 +5,7 @@
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "77cf4f4f154d7735ec0fad84cfd3f13f",
+        "md5": "d72bdecec9cb8826221003a51a3c95a3",
         "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/ULT/c3mini/HT/ac-ult-ht.ota.bin",
         "release_url": "",
         "summary": "# v2025.10.26\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)\n  ### ✨更新內容:\n 1. 首次上傳免更新"
