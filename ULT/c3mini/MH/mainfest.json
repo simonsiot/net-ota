@@ -1,0 +1,15 @@
+{
+  "name": "SimonIoT-ESPhome模組終極版-三菱電機",
+  "version": "2025.10.26",
+  "builds": [
+    {
+      "chipFamily": "ESP32-C3",
+      "ota": {
+        "md5": "53ab298078a23c4a6c3d1ff6e88d2747",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/ULT/c3mini/MH/ac-ult-mh.ota.bin",
+        "release_url": "",
+        "summary": "# v2025.10.26\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)\n  ### ✨更新內容:\n - 首次上傳免更新"
+      }
+    }   
+  ]
+}
