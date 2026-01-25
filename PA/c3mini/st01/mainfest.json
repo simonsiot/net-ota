@@ -1,0 +1,15 @@
+{
+  "name": "SimonIoT.ST-01國際空調ESPhome模組",
+  "version": "2026.01.11",
+  "builds": [
+    {
+      "chipFamily": "ESP32-C3",
+      "ota": {
+        "md5": "af9123ad635930fd51dbf1dffe56d3cb",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/PA/c3mini/st01/c3-ac-pa-s250929-e250903-v251016.ota.bin",
+        "release_url": "",
+        "summary": "# v2026.01.11\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)\n  ### ✨更新內容:\n - 首次上傳免更新"
+      }
+    }   
+  ]
+}
