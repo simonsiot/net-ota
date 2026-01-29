@@ -1,0 +1,15 @@
+{
+  "name": "SimonIoT-三菱重工空調ESPhome模組-壁掛",
+  "version": "2026.01.29",
+  "builds": [
+    {
+      "chipFamily": "ESP32-C3",
+      "ota": {
+        "md5": "53fa4c40a26facd5c07df116e725cc82",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MHI/c3mini/wall/climate-mhi-wall-v20251010.ota.bin",
+        "release_url": "",
+        "summary": "# v2026.01.29\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)\n  ### ✨更新內容:\n - 首次上傳免更新"
+      }
+    }   
+  ]
+}
