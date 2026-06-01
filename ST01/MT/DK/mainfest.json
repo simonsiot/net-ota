@@ -1,12 +1,11 @@
 {
   "name": "SimonIoT ST01-DK Matter",
-  "version": "26.06.01+1",
+  "version": "26.06.01+2",
   "builds": [
     {
-      "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "2cf76fdf92b148acb3287933fafdfa3f",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.01_1.ota.bin",
+        "md5": "ad8b4b5d2465b09e193fbeb5ae183d89",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.01_2.ota.bin",
         "release_url": "",
         "summary": "初版"
       }
