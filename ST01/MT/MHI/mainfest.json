@@ -1,12 +1,11 @@
 {
   "name": "SimonIoT ST01-MHI Matter",
-  "version": "26.06.01+1",
+  "version": "26.06.01+2",
   "builds": [
     {
-      "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "91bf5bb034994a35352f1ea6c399daa3",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.01_1.ota.bin",
+        "md5": "4505e49d49cc97fca7cde4de60c00581",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.01_2.ota.bin",
         "release_url": "",
         "summary": "初版"
       }
