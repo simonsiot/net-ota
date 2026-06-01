@@ -1,18 +1,26 @@
 {
   "name": "SimonIoT ST01-PA Matter",
-  "version": "26.06.01+10",
+  "version": "26.06.01+11",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "d94319c2b4eadc56d03e53268a0c6b84",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.01_10.ota.bin",
+        "md5": "86e08a830509f218a2b09cb4d6f9b90d",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.01_11.ota.bin",
         "release_url": "",
-        "summary": "# 設定頁修正\n- AP 模式移除無效的「回主控台」按鈕\n- 修正 AP 模式下掃描不到網路(掃描時暫停 STA 自動連線)\n- AP SSID 改用 STA MAC，與 hostname／路由器看到的 MAC 一致(不再進位 +1)"
+        "summary": "# v26.06.01\n- 設定頁文字優化(QR code 配對、移除認證警告字樣)\n- 線上檢查更新、AP 設定頁直接顯示內網 IP\n- WiFi 斷線自動重連/逾時重開機、清除設定確實生效"
       }
     }
   ],
   "history": [
+    {
+      "version": "26.06.01+11",
+      "date": "2026-06-01",
+      "md5": "86e08a830509f218a2b09cb4d6f9b90d",
+      "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.01_11.ota.bin",
+      "size": 1878416,
+      "summary": "# v26.06.01\n- 設定頁文字優化(QR code 配對、移除認證警告字樣)\n- 線上檢查更新、AP 設定頁直接顯示內網 IP\n- WiFi 斷線自動重連/逾時重開機、清除設定確實生效"
+    },
     {
       "version": "26.06.01+10",
       "date": "2026-06-01",
