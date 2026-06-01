@@ -1,18 +1,26 @@
 {
   "name": "SimonIoT ST01-PA Matter",
-  "version": "26.06.01+8",
+  "version": "26.06.01+9",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "ab1f70da3db05435879f51abb68b0963",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.01_8.ota.bin",
+        "md5": "dfa634caba15f09f26b518ee7cff6ec2",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.01_9.ota.bin",
         "release_url": "",
-        "summary": "# WiFi 連線強化\n- 開機 60 秒連不上 WiFi → 自動開 AP 設定模式\n- 已設定的裝置斷線超過 10 分鐘 → 自動重開機恢復\n- 清除WiFi/恢復出廠後不再自動連回(cleared 旗標)"
+        "summary": "# 設定流程改善\n- AP 模式連 192.168.4.1 直接進簡易 WiFi 設定頁(不再是控制台)\n- 輸入帳密後用 APSTA 即時連線，頁面直接顯示裝置取得的內網 IP\n- 不用再去路由器找 IP"
       }
     }
   ],
   "history": [
+    {
+      "version": "26.06.01+9",
+      "date": "2026-06-01",
+      "md5": "dfa634caba15f09f26b518ee7cff6ec2",
+      "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.01_9.ota.bin",
+      "size": 1878432,
+      "summary": "# 設定流程改善\n- AP 模式連 192.168.4.1 直接進簡易 WiFi 設定頁(不再是控制台)\n- 輸入帳密後用 APSTA 即時連線，頁面直接顯示裝置取得的內網 IP\n- 不用再去路由器找 IP"
+    },
     {
       "version": "26.06.01+8",
       "date": "2026-06-01",
