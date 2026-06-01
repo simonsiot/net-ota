@@ -8,7 +8,7 @@
         "md5": "8c7ec1c52350877e8486c434b1e3f0ae",
         "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.01_12.ota.bin",
         "release_url": "",
-        "summary": "# v26.06.01 (+12)\n- 修正:在 Google Home／Matter 調整溫度後，web 控制頁的「溫度」設定會跟著同步更新(原本不會反饋)"
+        "summary": "# v26.06.01 (+12)\n- 修正:在 非web 調整溫度後，web 控制頁的「溫度」設定會跟著同步更新(原本不會反饋)"
       }
     }
   ]
