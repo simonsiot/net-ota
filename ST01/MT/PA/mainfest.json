@@ -1,18 +1,26 @@
 {
   "name": "SimonIoT ST01-PA Matter",
-  "version": "26.06.01+6",
+  "version": "26.06.01+7",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "31eceda3f32d0d54d32f75731a29baa4",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.01_6.ota.bin",
+        "md5": "c1b03fa94b872998caf366afd4e07076",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.01_7.ota.bin",
         "release_url": "",
-        "summary": "# v26.06.01+6\n更新日期 2026-06-01\nMatter over WiFi 韌體更新。OTA 後配對與 WiFi 設定保留。"
+        "summary": "# v26.06.01+7\n更新日期 2026-06-01\nMatter over WiFi 韌體更新。OTA 後配對與 WiFi 設定保留。"
       }
     }
   ],
   "history": [
+    {
+      "version": "26.06.01+7",
+      "date": "2026-06-01",
+      "md5": "c1b03fa94b872998caf366afd4e07076",
+      "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.01_7.ota.bin",
+      "size": 1876032,
+      "summary": "# v26.06.01+7\n更新日期 2026-06-01\nMatter over WiFi 韌體更新。OTA 後配對與 WiFi 設定保留。"
+    },
     {
       "version": "26.06.01+6",
       "date": "2026-06-01",
