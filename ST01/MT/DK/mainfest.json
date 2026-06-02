@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-DK Matter",
-  "version": "26.06.01+2",
+  "version": "26.06.02+1",
   "builds": [
     {
       "ota": {
-        "md5": "ad8b4b5d2465b09e193fbeb5ae183d89",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.01_2.ota.bin",
+        "md5": "0b63fea945bdefc4def2daf3f4bedccf",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.02_1.ota.bin",
         "release_url": "",
-        "summary": "初版"
+        "summary": "移除控制頁的注意提示卡"
       }
     }
   ]
