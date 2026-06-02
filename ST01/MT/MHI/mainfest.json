@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-MHI Matter",
-  "version": "26.06.01+2",
+  "version": "26.06.02+1",
   "builds": [
     {
       "ota": {
-        "md5": "4505e49d49cc97fca7cde4de60c00581",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.01_2.ota.bin",
+        "md5": "68b8413c95e0931aba553bf2b1c2b5ab",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.02_1.ota.bin",
         "release_url": "",
-        "summary": "初版"
+        "summary": "# 三菱重工(MHI)功能補完\n- 新增 上下/左右葉片風向控制\n- 新增 除霜狀態、累計耗電量顯示\n- 透過 SPI operation-data 取得;尚未實機驗證"
       }
     }
   ]
