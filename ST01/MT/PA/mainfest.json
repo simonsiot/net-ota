@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-PA Matter",
-  "version": "26.06.01+13",
+  "version": "26.06.02+1",
   "builds": [
     {
       "ota": {
-        "md5": "1c981b8fba469aef1198ceaf728e7057",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.01_13.ota.bin",
+        "md5": "53607ec5f6f0bb47488814ca0cd3f7f9",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.02_1.ota.bin",
         "release_url": "",
-        "summary": "# v26.06.01 (+13)\n- 內部:OTA manifest 移除 chipFamily 欄位(改取 builds[0])，無功能差異"
+        "summary": "# HomeKit 風速 + 裝置名稱\n- FanControl 拆到獨立 Fan endpoint → Apple 家庭也能調整風速\n- 裝置名稱顯示為「廠牌 AC + MAC 後四碼」(如 Panasonic AC 3998)"
       }
     }
   ]
