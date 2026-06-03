@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-MHI Matter",
-  "version": "26.06.03+1",
+  "version": "26.06.03+3",
   "builds": [
     {
       "ota": {
-        "md5": "f9bb327e110a83483a2140a1bbac6291",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.03_1.ota.bin",
+        "md5": "35e4dcb4facc1378597bd90e403cb0a6",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.03_3.ota.bin",
         "release_url": "",
-        "summary": "韌體更新（顯示名稱簡稱化）。OTA 後配對與 WiFi 設定保留。"
+        "summary": "HA 新增 上下/左右風向、除霜、SPI 線控;移除不可靠的耗電顯示。OTA 後配對與 WiFi 設定保留。"
       }
     }
   ]
