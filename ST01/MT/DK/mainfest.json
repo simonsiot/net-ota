@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-DK Matter",
-  "version": "26.06.03+2",
+  "version": "26.06.03+3",
   "builds": [
     {
       "ota": {
-        "md5": "c810a09d6bb13fbbe3a8032bf5eee0cf",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.03_2.ota.bin",
+        "md5": "b0287d5f873825d38c15eba46673ed50",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.03_3.ota.bin",
         "release_url": "",
-        "summary": "移除實際不存在的耗電 / 濾網顯示(避免誤導)。OTA 後配對與 WiFi 設定保留。"
+        "summary": "Apple/Google 機型(Model)顯示改為「DK ST01 AC」。OTA 後配對與 WiFi 設定保留。"
       }
     }
   ]

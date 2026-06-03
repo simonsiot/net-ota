@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-PA Matter",
-  "version": "26.06.02+2",
+  "version": "26.06.03+1",
   "builds": [
     {
       "ota": {
-        "md5": "d4feb3683d40409a6221804828394d89",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.02_2.ota.bin",
+        "md5": "395ec0888f82308934f8970a0bb48bb7",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.03_1.ota.bin",
         "release_url": "",
-        "summary": "顯示名稱簡稱化（PA AC）。OTA 後配對與 WiFi 設定保留。"
+        "summary": "Apple/Google 機型(Model)顯示改為「PA ST01 AC」。OTA 後配對與 WiFi 設定保留。"
       }
     }
   ]

@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-HT Matter",
-  "version": "26.06.03+2",
+  "version": "26.06.03+3",
   "builds": [
     {
       "ota": {
-        "md5": "ee5e95d0d0c9818218ed9c6774c9bb4b",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/HT/mt-st01-ht-26.06.03_2.ota.bin",
+        "md5": "f456a8f22deb6796def10e06cb6ed5cc",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/HT/mt-st01-ht-26.06.03_3.ota.bin",
         "release_url": "",
-        "summary": "HA 新增 防霉 / 凍洗 開關;web 移除室內濕度。OTA 後配對與 WiFi 設定保留。"
+        "summary": "Apple/Google 機型(Model)顯示改為「HT ST01 AC」。OTA 後配對與 WiFi 設定保留。"
       }
     }
   ]
