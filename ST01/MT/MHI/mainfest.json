@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-MHI Matter",
-  "version": "26.06.09+1",
+  "version": "26.06.09+2",
   "builds": [
     {
       "ota": {
-        "md5": "fa125a530b11cd72df365fdd19746692",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.09_1.ota.bin",
+        "md5": "d05dc4457de4d099245ece5a81ea9f3a",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.09_2.ota.bin",
         "release_url": "",
-        "summary": "MHI 驅動更新。OTA 後配對與 WiFi 設定保留。"
+        "summary": "# v26.06.09+2\n- 新增：按住 GPIO9 持續 10 秒硬體恢復出廠（藍燈閃 3 下後，清除 WiFi／MQTT／配對資料並重新開機，回到初始設定狀態）。\n- 改善：系統 Log 視窗過濾 httpd_txrx 連線重置（recv 104）噪音，只留下與冷氣通訊相關的警告／錯誤。\nOTA 升級後，原本的配對與 WiFi 設定保留。"
       }
     }
   ]
