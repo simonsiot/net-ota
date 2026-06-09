@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-MHI Matter",
-  "version": "26.06.03+4",
+  "version": "26.06.09+1",
   "builds": [
     {
       "ota": {
-        "md5": "513c12380c04a9495bfce5a774f814bd",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.03_4.ota.bin",
+        "md5": "fa125a530b11cd72df365fdd19746692",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.09_1.ota.bin",
         "release_url": "",
-        "summary": "Apple/Google 機型(Model)顯示改為「MHI ST01 AC」。OTA 後配對與 WiFi 設定保留。"
+        "summary": "MHI 驅動更新。OTA 後配對與 WiFi 設定保留。"
       }
     }
   ]
