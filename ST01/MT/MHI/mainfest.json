@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-MHI Matter",
-  "version": "26.06.09+3",
+  "version": "26.06.10+1",
   "builds": [
     {
       "ota": {
-        "md5": "113eb7400b0ec9e380aee0b3c7e1ce83",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.09_3.ota.bin",
+        "md5": "6eb8bf37568cc2c652af1e0cc0884e9e",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.10_1.ota.bin",
         "release_url": "",
-        "summary": "# v26.06.09+3\n- 修正／改善 GPIO9 硬體恢復出廠的回饋：按住 GPIO9 期間，藍燈會以明顯的快速頻率（約 5Hz）持續閃爍當倒數，與平常燈號明顯不同；按滿 10 秒以 3 次長閃確認後才清除 WiFi／MQTT／配對並重開，中途放開即取消。\n- 新增診斷：按下／放開／重置會寫入系統 Log（不被過濾）。開啟網頁 Log 後短按一下 GPIO9（不到 10 秒）即可看到「pressed / released」訊息，用來確認接線是否正確。\nOTA 升級後，原本的配對與 WiFi 設定保留。"
+        "summary": "# v26.06.10+1\n- 移除 GPIO9 硬體恢復出廠功能（GPIO9 為板上 BOOT 腳，按壓會與其本身的硬體行為衝突，故取消此功能）。恢復出廠請改用網頁「系統 → 恢復出廠設定」。\n- 保留：系統 Log 視窗過濾 httpd_txrx 連線重置（recv 104）噪音。\nOTA 升級後，原本的配對與 WiFi 設定保留。"
       }
     }
   ]
