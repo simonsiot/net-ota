@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-MHI Matter",
-  "version": "26.06.10+3",
+  "version": "26.06.10+4",
   "builds": [
     {
       "ota": {
-        "md5": "673fc3510767c25db10c62bb29c58f1a",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.10_3.ota.bin",
+        "md5": "4880c8675e555b97e5de8c1706118488",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.10_4.ota.bin",
         "release_url": "",
-        "summary": "# v26.06.10+3\n- 修正：風速對應整體偏移一檔的問題。原本「弱／中／強」實際送出 speed_1／2／3，最強檔 speed_4 永遠用不到；現已對齊 ESPHome 版（弱=speed_2、中=speed_3、強=speed_4），各檔風量與 ESPHome 一致。\n- 新增：網頁風速增加「靜音」檔（= speed_1，即 ESPHome 的 Ultra Low）；Apple Home 風扇滑桿 10% 對應靜音。\n- 新增：設定溫度下限保護 — 非暖氣模式時最低 18°C（比照 ESPHome），避免 Matter 控制器送出 16–17°C 無效設定。\nOTA 升級後，原本的配對與 WiFi 設定保留。"
+        "summary": "# v26.06.10+4\n- 新增：即時耗電（W）與累計耗電量（kWh）— 網頁狀態卡顯示，MQTT 模式下 Home Assistant 自動出現 Power Consumption / Energy 兩個 sensor（與 ESPHome 版相同數據來源）。\n- 註：功率以 CT 電流 × 230V 估算（與 ESPHome 版相同），屬估計值；累計耗電量重開機後從 0 重新累計。\nOTA 升級後，原本的配對與 WiFi 設定保留。"
       }
     }
   ]
