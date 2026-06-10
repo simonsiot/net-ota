@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-MHI Matter",
-  "version": "26.06.10+1",
+  "version": "26.06.10+2",
   "builds": [
     {
       "ota": {
-        "md5": "6eb8bf37568cc2c652af1e0cc0884e9e",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.10_1.ota.bin",
+        "md5": "d7be8056ae477ce2755b040cda9c59d3",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.10_2.ota.bin",
         "release_url": "",
-        "summary": "# v26.06.10+1\n- 移除 GPIO9 硬體恢復出廠功能（GPIO9 為板上 BOOT 腳，按壓會與其本身的硬體行為衝突，故取消此功能）。恢復出廠請改用網頁「系統 → 恢復出廠設定」。\n- 保留：系統 Log 視窗過濾 httpd_txrx 連線重置（recv 104）噪音。\nOTA 升級後，原本的配對與 WiFi 設定保留。"
+        "summary": "# v26.06.10+2\n- 修正：MHI 狀態回讀在開機約 2 秒後凍結的問題（SPI snapshot 同步旗標未歸還）。此問題造成調整溫度／風速後，網頁與 Apple Home／Google Home 顯示立刻彈回舊值、看似設定失敗；開關機因實體動作明顯而不受影響。修正後狀態即時更新，溫度、風速、模式調整均正常生效。\nOTA 升級後，原本的配對與 WiFi 設定保留。"
       }
     }
   ]
