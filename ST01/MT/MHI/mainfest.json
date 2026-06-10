@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-MHI Matter",
-  "version": "26.06.10+4",
+  "version": "26.06.10+5",
   "builds": [
     {
       "ota": {
-        "md5": "4880c8675e555b97e5de8c1706118488",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.10_4.ota.bin",
+        "md5": "37280aa92ab810ed5675e532af7ebc74",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.10_5.ota.bin",
         "release_url": "",
-        "summary": "# v26.06.10+4\n- 新增：即時耗電（W）與累計耗電量（kWh）— 網頁狀態卡顯示，MQTT 模式下 Home Assistant 自動出現 Power Consumption / Energy 兩個 sensor（與 ESPHome 版相同數據來源）。\n- 註：功率以 CT 電流 × 230V 估算（與 ESPHome 版相同），屬估計值；累計耗電量重開機後從 0 重新累計。\nOTA 升級後，原本的配對與 WiFi 設定保留。"
+        "summary": "# v26.06.10+5\n- 新增：室外溫度 — 網頁狀態卡顯示，MQTT 模式下 Home Assistant 自動出現 Outdoor Temperature sensor（讀取室外機運轉資料，與 ESPHome 版相同來源）。\n- 註：室外機待機時數值更新較慢，顯示為最後讀到的值。\nOTA 升級後，原本的配對與 WiFi 設定保留。"
       }
     }
   ]
