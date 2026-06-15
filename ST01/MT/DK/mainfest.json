@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-DK Matter",
-  "version": "26.06.15+10",
+  "version": "26.06.16+1",
   "builds": [
     {
       "ota": {
-        "md5": "d1cfd6b81ad9fef473c89b1d6d350d2d",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_10.ota.bin",
+        "md5": "22e4e5e4af44470a88f942eae79be5fa",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.16_1.ota.bin",
         "release_url": "",
-        "summary": "WiFi 設定簡化為最可靠流程：在熱點輸入家中 WiFi 帳密後「儲存設定」，畫面提示請到家用路由器的裝置清單／DHCP 清單，找主機名稱 mt-st01-dk-<MAC> 對應的 IP，並自動重新開機以純 STA 連線（避免單天線在現場連線時把手機踢出設定頁）。多台同型裝置因主機名帶 MAC 尾碼而不撞名。密碼若有誤會自動再開設定熱點，不必斷電。Matter 維持預設啟動。"
+        "summary": "修正：恢復出廠設定後 Matter 應維持原廠預設「啟動」。先前恢復出廠會誤把 matter_en 寫成 0，導致重開後變成 MQTT 模式、Matter 被關閉；現已改為恢復出廠 = Matter 開。（WiFi 設定流程同前一版：存帳密→提示到路由器找主機名 mt-st01-dk-<MAC> 的 IP→自動重開純 STA 連線。）"
       }
     }
   ]
