@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-DK Matter",
-  "version": "26.06.15+1",
+  "version": "26.06.15+4",
   "builds": [
     {
       "ota": {
-        "md5": "8112131c72d76281d0c3e2db9eddf3e6",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_1.ota.bin",
+        "md5": "1087fb93ac80f472000fc3f94d5c42b5",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_4.ota.bin",
         "release_url": "",
-        "summary": "AP 設定模式:連線前先把熱點移到目標 WiFi 的頻道,修正輸入正確密碼卻連不上(需等熱點重來才行)的問題。OTA 後配對與 WiFi 設定保留。"
+        "summary": "修正室內外溫度讀取(改用 RH/Ra 查詢,F9 後備);AP 設定模式:連線前對齊熱點頻道、失敗時直接顯示斷線錯誤碼。OTA 後配對與 WiFi 設定保留。"
       }
     }
   ]
