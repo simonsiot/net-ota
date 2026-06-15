@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-MHI Matter",
-  "version": "26.06.10+5",
+  "version": "26.06.15+1",
   "builds": [
     {
       "ota": {
-        "md5": "37280aa92ab810ed5675e532af7ebc74",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.10_5.ota.bin",
+        "md5": "9cb3c6a3da39ea952bb6c16884472377",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.15_1.ota.bin",
         "release_url": "",
-        "summary": "# v26.06.10+5\n- 新增：室外溫度 — 網頁狀態卡顯示，MQTT 模式下 Home Assistant 自動出現 Outdoor Temperature sensor（讀取室外機運轉資料，與 ESPHome 版相同來源）。\n- 註：室外機待機時數值更新較慢，顯示為最後讀到的值。\nOTA 升級後，原本的配對與 WiFi 設定保留。"
+        "summary": "新增 0.5°C 溫度設定;AP 設定模式對齊熱點頻道 + 失敗顯示錯誤碼。OTA 後配對與 WiFi 設定保留。"
       }
     }
   ]

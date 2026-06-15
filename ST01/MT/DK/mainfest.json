@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-DK Matter",
-  "version": "26.06.15+4",
+  "version": "26.06.15+5",
   "builds": [
     {
       "ota": {
-        "md5": "1087fb93ac80f472000fc3f94d5c42b5",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_4.ota.bin",
+        "md5": "0ec33494518e13e9450503ba895fa88c",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_5.ota.bin",
         "release_url": "",
-        "summary": "修正室內外溫度讀取(改用 RH/Ra 查詢,F9 後備);AP 設定模式:連線前對齊熱點頻道、失敗時直接顯示斷線錯誤碼。OTA 後配對與 WiFi 設定保留。"
+        "summary": "新增 0.5°C 溫度設定(顯示與調整);AP 設定模式對齊熱點頻道 + 失敗顯示錯誤碼。OTA 後配對與 WiFi 設定保留。"
       }
     }
   ]
