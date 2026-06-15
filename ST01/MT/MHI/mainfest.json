@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-MHI Matter",
-  "version": "26.06.15+3",
+  "version": "26.06.16+1",
   "builds": [
     {
       "ota": {
-        "md5": "eac9a000d282a85bb79e04790c96fc02",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.15_3.ota.bin",
+        "md5": "e687bf940af5e24f5b6a6feef2352ff3",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.16_1.ota.bin",
         "release_url": "",
-        "summary": "修正 WiFi 設定流程：在設定熱點輸入家中 WiFi 帳號密碼後，裝置改為「儲存設定並自動重新開機」，以純 STA 模式連線，連線穩定可靠（不再需要手動斷電重開）。若密碼錯誤會自動重新開出設定熱點，重連設定頁重設即可。"
+        "summary": "WiFi 設定流程改良 + 修正恢復出廠誤關 Matter。設定流程：在熱點輸入帳密後「儲存設定」，畫面提示到家用路由器裝置清單找主機名稱 mt-st01-<brand>-<MAC> 對應的 IP，並自動重新開機以純 STA 連線（避免單天線在現場連線把手機踢出設定頁、頁面卡死）。多台同型裝置因主機名帶 MAC 尾碼不撞名；密碼有誤會自動再開設定熱點、不必斷電。恢復出廠設定維持 Matter 預設啟動。"
       }
     }
   ]
