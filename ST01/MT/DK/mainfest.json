@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-DK Matter",
-  "version": "26.06.15+7",
+  "version": "26.06.15+8",
   "builds": [
     {
       "ota": {
-        "md5": "0b77af9a6b3bead7ea743f7b08bfb144",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_7.ota.bin",
+        "md5": "fedc93ac000dcbb7bd070c3334ad3f19",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_8.ota.bin",
         "release_url": "",
-        "summary": "修正 WiFi 設定流程：在設定熱點輸入家中 WiFi 帳號密碼後，裝置改為「儲存設定並自動重新開機」，以純 STA 模式連線，連線穩定可靠（不再需要手動斷電重開）。若密碼錯誤會自動重新開出設定熱點，重連設定頁重設即可。"
+        "summary": "WiFi 設定流程改良：輸入帳密後立即出現「完成並重新開機」按鈕（一定有按鈕可按）；連上後頁面直接顯示裝置 IP，記下後按按鈕重開機改以純 STA 穩定連線。並修正現場設定一旦卡住不會自動重開、需手動斷電的問題（補上連線看門狗自我恢復）。"
       }
     }
   ]
