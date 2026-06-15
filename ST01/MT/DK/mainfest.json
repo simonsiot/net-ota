@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-DK Matter",
-  "version": "26.06.15+8",
+  "version": "26.06.15+7",
   "builds": [
     {
       "ota": {
-        "md5": "fedc93ac000dcbb7bd070c3334ad3f19",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_8.ota.bin",
+        "md5": "0b77af9a6b3bead7ea743f7b08bfb144",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_7.ota.bin",
         "release_url": "",
-        "summary": "WiFi 設定流程改良：輸入帳密後立即出現「完成並重新開機」按鈕（一定有按鈕可按）；連上後頁面直接顯示裝置 IP，記下後按按鈕重開機改以純 STA 穩定連線。並修正現場設定一旦卡住不會自動重開、需手動斷電的問題（補上連線看門狗自我恢復）。"
+        "summary": "回退版（穩定）：輸入家中 WiFi 帳密後儲存設定並自動重新開機，以純 STA 模式連線，連得上、不會卡死。此版不在設定頁顯示 IP、也沒有手動按鈕（下一版方案 B 會加回，並用 mt-st01-dk-<MAC> 主機名讓多台不撞名）。"
       }
     }
   ]
