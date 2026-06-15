@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-DK Matter",
-  "version": "26.06.10+2",
+  "version": "26.06.15+1",
   "builds": [
     {
       "ota": {
-        "md5": "9105bdd360161b17ea88e6deef465498",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.10_2.ota.bin",
+        "md5": "8112131c72d76281d0c3e2db9eddf3e6",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_1.ota.bin",
         "release_url": "",
-        "summary": "# v26.06.10+2\n- 修正：期望狀態快取改為每次輪詢與機器同步（原本只在開機同步一次）。修正前若曾用原廠遙控器開／關機，之後在 App 調整溫度或風速時，指令會夾帶過期的電源／模式狀態，造成冷氣被意外關閉或開啟。\n- 新增：風速「靜音」檔（Daikin Silent），網頁與 Apple Home（風扇 10%）皆可選。\n- 改善：系統 Log 視窗過濾 httpd_txrx 連線重置（recv 104）噪音，只留與冷氣通訊相關的警告／錯誤。\nOTA 升級後，原本的配對與 WiFi 設定保留。"
+        "summary": "AP 設定模式:連線前先把熱點移到目標 WiFi 的頻道,修正輸入正確密碼卻連不上(需等熱點重來才行)的問題。OTA 後配對與 WiFi 設定保留。"
       }
     }
   ]
