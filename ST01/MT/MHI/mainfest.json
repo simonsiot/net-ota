@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-MHI Matter",
-  "version": "26.06.15+1",
+  "version": "26.06.15+2",
   "builds": [
     {
       "ota": {
-        "md5": "9cb3c6a3da39ea952bb6c16884472377",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.15_1.ota.bin",
+        "md5": "abd5d6beb35eda23611785e14419c485",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.15_2.ota.bin",
         "release_url": "",
-        "summary": "新增 0.5°C 溫度設定;AP 設定模式對齊熱點頻道 + 失敗顯示錯誤碼。OTA 後配對與 WiFi 設定保留。"
+        "summary": "MHI:室內/室外溫度顯示到 0.5 度。OTA 後配對與 WiFi 設定保留。"
       }
     }
   ]
