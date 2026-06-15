@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-DK Matter",
-  "version": "26.06.15+9",
+  "version": "26.06.15+10",
   "builds": [
     {
       "ota": {
-        "md5": "80e31c7fcf2c9c9f37099e379f59a827",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_9.ota.bin",
+        "md5": "d1cfd6b81ad9fef473c89b1d6d350d2d",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_10.ota.bin",
         "release_url": "",
-        "summary": "WiFi 設定改為最穩流程：在熱點輸入帳密後只「儲存設定」並由頁面按鈕觸發重新開機，重開後以純 STA 連線（避免單天線在現場連線時把手機踢出設定頁、頁面卡死）。重開後裝置以 mDNS 廣播 mt-st01-dk-<MAC>.local，手機切回家中 WiFi 直接開該網址即可進控制頁，免查路由器 IP；多台同型裝置因帶 MAC 尾碼而不撞名。"
+        "summary": "WiFi 設定簡化為最可靠流程：在熱點輸入家中 WiFi 帳密後「儲存設定」，畫面提示請到家用路由器的裝置清單／DHCP 清單，找主機名稱 mt-st01-dk-<MAC> 對應的 IP，並自動重新開機以純 STA 連線（避免單天線在現場連線時把手機踢出設定頁）。多台同型裝置因主機名帶 MAC 尾碼而不撞名。密碼若有誤會自動再開設定熱點，不必斷電。Matter 維持預設啟動。"
       }
     }
   ]
