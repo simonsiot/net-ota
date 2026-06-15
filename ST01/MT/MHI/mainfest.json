@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-MHI Matter",
-  "version": "26.06.15+2",
+  "version": "26.06.15+3",
   "builds": [
     {
       "ota": {
-        "md5": "abd5d6beb35eda23611785e14419c485",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.15_2.ota.bin",
+        "md5": "eac9a000d282a85bb79e04790c96fc02",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/MHI/mt-st01-mhi-26.06.15_3.ota.bin",
         "release_url": "",
-        "summary": "MHI:室內/室外溫度顯示到 0.5 度。OTA 後配對與 WiFi 設定保留。"
+        "summary": "修正 WiFi 設定流程：在設定熱點輸入家中 WiFi 帳號密碼後，裝置改為「儲存設定並自動重新開機」，以純 STA 模式連線，連線穩定可靠（不再需要手動斷電重開）。若密碼錯誤會自動重新開出設定熱點，重連設定頁重設即可。"
       }
     }
   ]

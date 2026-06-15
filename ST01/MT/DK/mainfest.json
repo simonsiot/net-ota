@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-DK Matter",
-  "version": "26.06.15+6",
+  "version": "26.06.15+7",
   "builds": [
     {
       "ota": {
-        "md5": "29b0ab059fb8248dd35485ed49ecf52e",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_6.ota.bin",
+        "md5": "0b77af9a6b3bead7ea743f7b08bfb144",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_7.ota.bin",
         "release_url": "",
-        "summary": "大金:室內/室外溫度顯示到 0.5 度;含 0.5°C 設定、AP 設定頻道對齊 + 失敗錯誤碼。OTA 後配對與 WiFi 設定保留。"
+        "summary": "修正 WiFi 設定流程：在設定熱點輸入家中 WiFi 帳號密碼後，裝置改為「儲存設定並自動重新開機」，以純 STA 模式連線，連線穩定可靠（不再需要手動斷電重開）。若密碼錯誤會自動重新開出設定熱點，重連設定頁重設即可。"
       }
     }
   ]

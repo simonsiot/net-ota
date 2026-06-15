@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-HT Matter",
-  "version": "26.06.15+1",
+  "version": "26.06.15+2",
   "builds": [
     {
       "ota": {
-        "md5": "e7aaef8e4a18ac8da0928a8d0be53b44",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/HT/mt-st01-ht-26.06.15_1.ota.bin",
+        "md5": "479976fcff05585a88b8aaa7d3a581ac",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/HT/mt-st01-ht-26.06.15_2.ota.bin",
         "release_url": "",
-        "summary": "AP 設定模式:連線前對齊熱點頻道、失敗時直接顯示斷線錯誤碼。OTA 後配對與 WiFi 設定保留。"
+        "summary": "修正 WiFi 設定流程：在設定熱點輸入家中 WiFi 帳號密碼後，裝置改為「儲存設定並自動重新開機」，以純 STA 模式連線，連線穩定可靠（不再需要手動斷電重開）。若密碼錯誤會自動重新開出設定熱點，重連設定頁重設即可。"
       }
     }
   ]
