@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-DK Matter",
-  "version": "26.06.15+7",
+  "version": "26.06.15+9",
   "builds": [
     {
       "ota": {
-        "md5": "0b77af9a6b3bead7ea743f7b08bfb144",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_7.ota.bin",
+        "md5": "80e31c7fcf2c9c9f37099e379f59a827",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/DK/mt-st01-dk-26.06.15_9.ota.bin",
         "release_url": "",
-        "summary": "回退版（穩定）：輸入家中 WiFi 帳密後儲存設定並自動重新開機，以純 STA 模式連線，連得上、不會卡死。此版不在設定頁顯示 IP、也沒有手動按鈕（下一版方案 B 會加回，並用 mt-st01-dk-<MAC> 主機名讓多台不撞名）。"
+        "summary": "WiFi 設定改為最穩流程：在熱點輸入帳密後只「儲存設定」並由頁面按鈕觸發重新開機，重開後以純 STA 連線（避免單天線在現場連線時把手機踢出設定頁、頁面卡死）。重開後裝置以 mDNS 廣播 mt-st01-dk-<MAC>.local，手機切回家中 WiFi 直接開該網址即可進控制頁，免查路由器 IP；多台同型裝置因帶 MAC 尾碼而不撞名。"
       }
     }
   ]
