@@ -1,13 +1,13 @@
 {
   "name": "SimonIoT ST01-PA Matter",
-  "version": "26.06.16+1",
+  "version": "26.07.09+3",
   "builds": [
     {
       "ota": {
-        "md5": "cebc78fb8daa3fdc60a43114a55f18d3",
-        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.06.16_1.ota.bin",
+        "md5": "084fadd98ef8cd6b6345c23df5664a20",
+        "path": "https://raw.githubusercontent.com/simonsiot/net-ota/refs/heads/main/ST01/MT/PA/mt-st01-pa-26.07.09_3.ota.bin",
         "release_url": "",
-        "summary": "WiFi 設定流程改良 + 修正恢復出廠誤關 Matter。設定流程：在熱點輸入帳密後「儲存設定」，畫面提示到家用路由器裝置清單找主機名稱 mt-st01-<brand>-<MAC> 對應的 IP，並自動重新開機以純 STA 連線（避免單天線在現場連線把手機踢出設定頁、頁面卡死）。多台同型裝置因主機名帶 MAC 尾碼不撞名；密碼有誤會自動再開設定熱點、不必斷電。恢復出廠設定維持 Matter 預設啟動。"
+        "summary": "新增防霉乾燥功能：冷氣/除濕/自動模式關機 40 秒後自動切送風吹乾室內機，預設 40 分鐘（1-180 分鐘可調）。可在網頁「控制」分頁開關與設定，MQTT 模式下 Home Assistant 也會出現對應的開關與時間設定。"
       }
     }
   ]
