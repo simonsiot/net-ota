@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.ST-01日立全熱交換ESPhome模組",
-  "version": "26.07.13",
+  "version": "26.07.13+1",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "8c76adcd9f838682686586c969a43d73",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/erv/erv-st01-ht-s260713-e251102-v260713.ota.bin",
+        "md5": "46d0c03f91c0183943e3c498ebf8c7c8",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/erv/erv-st01-ht-s260713-e251102-v260713-1.ota.bin",
         "release_url": "",
-        "summary": "# v26.07.13\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)\n  ### ✨更新內容:\n - 首次上傳免更新"
+        "summary": "# v26.07.13+1\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)\n  ### ✨更新內容:\n - 濾網重置按鈕改為 ERV 專用三顆 (濾網/前置/PM2.5)\n - 新增手動檢查更新按鈕\n - 移除機器不支援的 On Timer"
       }
     }
   ]
