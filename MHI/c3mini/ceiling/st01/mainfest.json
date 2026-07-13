@@ -1,12 +1,12 @@
 {
-  "name": "SimonIoT-三菱重工空調ESPhome模組-壁掛",
+  "name": "SimonIoT.ST-01三菱重工空調ESPhome模組-吊隱",
   "version": "26.07.13",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "d6583efad7309e4c6a60dee36d1444be",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MHI/c3mini/wall/st01/ac-st01-mhi-w-s251215-e251102-v260713.ota.bin",
+        "md5": "0790b145d2269e370150e3cdc43da304",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MHI/c3mini/ceiling/st01/ac-st01-mhi-c-s251215-e251102-v260713.ota.bin",
         "release_url": "",
         "summary": "# v26.07.13\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)（本次起WiFi設定永久保存，之後更新不再需要重設）\n  ### ✨更新內容:\n 1. 修正線上更新檢查失敗時的記憶體洩漏（久了會當機重開）\n 2. 新增「檢查韌體更新」手動按鈕\n 3. 每週五 03:00 自動檢查一次新韌體\n"
       }
