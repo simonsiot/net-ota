@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.C3米多力吊隱除濕機ESPhome模組",
-  "version": "26.07.13",
+  "version": "26.07.15",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "825788dc6467a901bd98e8fdeddf490b",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MEDOLE/c3mini/dehu/medole-dehumidifier-s260713-e251102-v260713.ota.bin",
+        "md5": "cc237ecfae4665de68e3242ddb63c227",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MEDOLE/c3mini/dehu/mdl-dehumidifier-s260715-e251102-v260715.ota.bin",
         "release_url": "",
-        "summary": "# v26.07.13\n  ### ✨初版釋出:\n 1. Modbus RTU 控制：電源/目標濕度/風速/空氣清淨\n 2. 溫濕度×2、管溫、風扇時數與全套警報監控\n 3. 每週五 03:00 自動檢查新韌體＋手動檢查按鈕\n"
+        "summary": "# v26.07.15\n  ### ✨初版釋出:\n 1. Modbus RTU 控制：電源/目標濕度/風速/空氣清淨\n 2. 溫濕度×2、管溫、風扇時數與全套警報監控\n 3. 每週五 03:00 自動檢查新韌體＋手動檢查按鈕\n"
       }
     }
   ]
