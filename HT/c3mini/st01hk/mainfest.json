@@ -1,0 +1,15 @@
+{
+  "name": "SimonIoT.ST-01日立空調HomeKit模組",
+  "version": "26.07.13",
+  "builds": [
+    {
+      "chipFamily": "ESP32-C3",
+      "ota": {
+        "md5": "ad22d86cfe4ff7c027a9fc7892ad0d8f",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/st01hk/hk-st01-ht-s251115-e251102-v260713.ota.bin",
+        "release_url": "",
+        "summary": "# v26.07.13\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)（本次起WiFi設定永久保存，之後更新不再需要重設）\n  ### ✨更新內容:\n 1. 新增線上韌體更新功能（手動「檢查韌體更新」按鈕＋每週五 03:00 自動檢查）\n 2. 內建更新元件記憶體洩漏修正（esphome#11578）\n"
+      }
+    }
+  ]
+}
