@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.C3米多力吊隱除濕機ESPhome模組",
-  "version": "26.07.22",
+  "version": "26.07.23",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "3733e9adc9f6b0f403af4868a9fc2c0d",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MEDOLE/c3mini/dehu/mdl-dehumidifier-s260722-e251102-v260722.ota.bin",
+        "md5": "4f2d0385bd7f0e3a594a25a993590639",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MEDOLE/c3mini/dehu/mdl-dehumidifier-s260723-e251102-v260723-diag.ota.bin",
         "release_url": "",
-        "summary": "# v26.07.22\n  ### ✨更新內容:\n 1. 修正 RS-485 TX/RX 腳位顛倒導致無法與機器通訊的問題\n"
+        "summary": "# v26.07.23 (診斷版)\n  ### 🔍RS-485 通訊診斷:\n 1. UART 收發原始資料全部印到 log\n 2. Modbus 詳細除錯訊息\n 3. 開瀏覽器進裝置 web 頁面 (http://裝置IP) 即可觀看 log\n"
       }
     }
   ]
