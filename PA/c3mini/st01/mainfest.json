@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.ST-01國際空調ESPhome模組",
-  "version": "26.07.13",
+  "version": "26.07.31",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "aa01ff23492378e88cbb7f74819099a1",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/PA/c3mini/st01/ac-st01-pa-s260520-e251102-v260713.ota.bin",
+        "md5": "236882c8c073a3ca6b717b947364cae5",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/PA/c3mini/st01/ac-st01-pa-s260520-e251102-v260731.ota.bin",
         "release_url": "",
-        "summary": "# v26.07.13\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)（本次起WiFi設定永久保存，之後更新不再需要重設）\n  ### ✨更新內容:\n 1. 修正線上更新檢查失敗時的記憶體洩漏（久了會當機重開）\n 2. 新增「檢查韌體更新」手動按鈕\n 3. 每週五 03:00 自動檢查一次新韌體\n"
+        "summary": "# v26.07.31\n ### ✨更新內容:\n 1. 風量開放五段：靜音／弱／中／強／最強（原本三段）\n 2. 新機型支援：乾燥防霉自動相容新式機種(UX/VX)、新增「監測防霉」「語音控制」開關\n 3. 新增感測：室內濕度、電壓、室內/室外機耗電、本月耗電、保養/濾網累計運轉時數\n 4. 開機自動偵測機型支援度，機器沒有的功能自動隱藏，不會出現無效項目\n"
       }
     }
   ]
