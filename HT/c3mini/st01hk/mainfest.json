@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.ST-01日立空調HomeKit模組",
-  "version": "26.08.04",
+  "version": "26.08.05",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "a47165b0c511ceffe57cd2bfe2fc501a",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/st01hk/hk-st01-ht-s251115-e251102-v260804.ota.bin",
+        "md5": "13ef5bb7799abe2caa11740ce414513c",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/st01hk/hk-st01-ht-s251115-e251102-v260805.ota.bin",
         "release_url": "",
-        "summary": "# v26.08.04\n  ### ✨更新內容:\n 1. 風速新增「靜」檔（日立遙控器最安靜的一段），家庭 App 風速滑桿最低一格＝靜\n"
+        "summary": "# v26.08.05\n  ### ✨更新內容:\n 1. 風速新增「靜」檔（日立遙控器最安靜的一段），家庭 App 風速滑桿最低一格＝靜\n"
       }
     }
   ]
