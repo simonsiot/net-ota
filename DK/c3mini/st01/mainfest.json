@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.ST-01大金空調ESPhome模組",
-  "version": "26.08.23",
+  "version": "26.08.23b",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "b5af8003cfaa49cae048949fbe0dbfaa",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/DK/c3mini/st01/ac-st01-dk-s260823-e251102-v260823.ota.bin",
+        "md5": "08aee79730e12db9660c11f9df3b45e3",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/DK/c3mini/st01/ac-st01-dk-s260823b-e251102-v260823b.ota.bin",
         "release_url": "",
-        "summary": "# v26.08.23\n ### ✨更新內容:\n 1. 新增「Protocol Version」通訊協定版本顯示（可判斷機型是否支援用電量統計）\n 2. 修正部分機型累積用電量恆為 0 的問題\n 3. 修正「遙控器關機後，從 HA 開機約 10 秒後自動跳回關機」的問題\n"
+        "summary": "# v26.08.23b\n ### ✨更新內容:\n 1. 新增「Protocol Version」通訊協定版本顯示\n 2. 新增「Energy Support」電量功能支援狀態顯示（supported＝支援／unsupported＝機型無電量計）\n 3. 修正部分機型累積用電量恆為 0 的問題；不支援電量的機型不再顯示 0\n 4. 修正「遙控器關機後，從 HA 開機約 10 秒後自動跳回關機」的問題\n"
       }
     }
   ]
