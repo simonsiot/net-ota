@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.ST-01三菱重工空調ESPhome模組",
-  "version": "26.07.13",
+  "version": "26.08.29",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "76f5256ea2a0fc5d3900daa930591901",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MHI/c3mini/st01/ac-st01-mhi-auto-s251215-e251102-v260713.ota.bin",
+        "md5": "c56e5b0a447ffa5cabbfe97b94967b8d",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MHI/c3mini/st01/ac-st01-mhi-auto-s260829-e251102-v260829.ota.bin",
         "release_url": "",
-        "summary": "# v26.07.13\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)（本次起WiFi設定永久保存，之後更新不再需要重設）\n  ### ✨更新內容:\n 1. 修正線上更新檢查失敗時的記憶體洩漏（久了會當機重開）\n 2. 新增「檢查韌體更新」手動按鈕\n 3. 每週五 03:00 自動檢查一次新韌體\n"
+        "summary": "# v26.08.29\n ### ✨更新內容:\n 1. 新增「Energy Used」用電量感測器\n 2. 新增診斷實體：Error Code（錯誤代碼）、Protection State（壓縮機保護狀態）——預設隱藏，可於 HA 裝置頁啟用\n 3. 「Frame errors」改為預設隱藏\n"
       }
     }
   ]
