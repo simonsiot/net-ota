@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.ST-01日立除濕機ESPhome模組",
-  "version": "26.07.13",
+  "version": "26.09.02",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "d9b5107554b728fb5e6cdbdd2a6b74a8",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/dehu/st01-dehumidifier-s260307-e251102-v260713.ota.bin",
+        "md5": "72d5b8486bfd716395ac616689bcd379",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/dehu/st01-dehumidifier-s260307-e251102-v260902.ota.bin",
         "release_url": "",
-        "summary": "# v26.07.13\n ## ⚠️注意⚠️OTA後需重新連上熱點設定WiFi🛜 [連線教學](https://siot.cc/ac/)（本次起WiFi設定永久保存，之後更新不再需要重設）\n  ### ✨更新內容:\n 1. 修正線上更新檢查失敗時的記憶體洩漏（久了會當機重開）\n 2. 新增「檢查韌體更新」手動按鈕\n 3. 每週五 03:00 自動檢查一次新韌體\n"
+        "summary": "# v26.09.02\n  ### ✨更新內容:\n 1. 新增「Auto Dehumidify 自動除濕」開關（預設開啟）\n 2. 新增「Auto Humidity Threshold 自動除濕門檻」（41~80%，預設 70%）\n 3. 室內濕度高於門檻自動開機並切換為 normal 模式；低於機器設定的目標濕度自動關機\n 4. 水箱清空後若濕度仍高會自動重新開機\n"
       }
     }
   ]
