@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.ST-01日立除濕機ESPhome模組",
-  "version": "26.09.02",
+  "version": "26.09.08",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "72d5b8486bfd716395ac616689bcd379",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/dehu/st01-dehumidifier-s260307-e251102-v260902.ota.bin",
+        "md5": "16c664fb0d0183d86acc7cd80c081054",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/HT/c3mini/dehu/st01-dehumidifier-s260307-e251102-v260908.ota.bin",
         "release_url": "",
-        "summary": "# v26.09.02\n  ### ✨更新內容:\n 1. 新增「Auto Dehumidify 自動除濕」開關（預設開啟）\n 2. 新增「Auto Humidity Threshold 自動除濕門檻」（41~80%，預設 70%）\n 3. 室內濕度高於門檻自動開機並切換為 normal 模式；低於機器設定的目標濕度自動關機\n 4. 水箱清空後若濕度仍高會自動重新開機\n"
+        "summary": "# v26.09.08\n  ### ✨更新內容:\n 1. 開機時依機器回報的功能表自動調整：運轉時間、目標濕度的可設定範圍，風速段數，運轉模式選項（吊隱式：運轉時間 0~24 小時、濕度 30~80%、風速 3 段）\n 2. 運轉模式新增 purifier（空氣清淨），僅在機器支援時出現；吊隱式請用此選項取代 Air Purifier 開關\n 3. 含 26.09.02 的自動除濕開關與濕度門檻功能\n"
       }
     }
   ]
