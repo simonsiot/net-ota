@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.C3米多力吊隱除濕機ESPhome模組",
-  "version": "26.08.25+1",
+  "version": "26.09.29",
   "builds": [
     {
       "chipFamily": "ESP32-C3",
       "ota": {
-        "md5": "eb7e49e511adef8e86d82c28ccb0e383",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MEDOLE/c3mini/dehu/mdl-dehumidifier-s260825-1-e251102-v260825-1.ota.bin",
+        "md5": "3cbce520870f6e4433f4fe17b0584e6d",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/MEDOLE/c3mini/dehu/mdl-dehumidifier-s260929-e251105-v260929.ota.bin",
         "release_url": "",
-        "summary": "# v26.08.25+1\n  ### ✨更新內容:\n 1. 除錯訊息預設關閉，運作更順暢\n 2. 新增「Log Level 除錯等級」選項：需要排查問題時切到「除錯」即可顯示詳細紀錄，免重刷韌體\n"
+        "summary": "# v26.09.29\n  ### ✨更新內容:\n 1. 韌體平台更新 (ESPHome 2025.11.5)，穩定性改善\n"
       }
     }
   ]
