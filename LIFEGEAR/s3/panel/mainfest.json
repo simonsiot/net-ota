@@ -1,0 +1,15 @@
+{
+  "name": "SimonIoT.樂奇浴室暖風機觸控面板",
+  "version": "26.10.08",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "ota": {
+        "md5": "120a1bcfda61b3d6f210ed381b219efa",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/LIFEGEAR/s3/panel/lg-bath-pannel-s261008-e251105-v261008.ota.bin",
+        "release_url": "",
+        "summary": "# v26.10.08\n  ### ✨更新內容:\n 1. 新增線上韌體更新：每週五凌晨自動檢查，也可在「設定 > 資訊」按「檢查更新」\n 2. 24h 換氣預設關閉，切換後立即記憶，斷電重開會自動恢復\n 3. 設定 > 資訊新增「重開機」按鈕\n"
+      }
+    }
+  ]
+}
