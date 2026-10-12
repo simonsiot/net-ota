@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.樂奇浴室暖風機觸控面板",
-  "version": "26.10.11d",
+  "version": "26.10.13d",
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "ota": {
-        "md5": "889fba7bf3f876033a7dab45e314842a",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/LIFEGEAR/s3/panel/lg-bath-pannel-s261011d-e251105-v261011d.ota.bin",
+        "md5": "8a7262be8ab92e278800bd26ef8ee312",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/LIFEGEAR/s3/panel/lg-bath-pannel-s261013d-e251105-v261013d.ota.bin",
         "release_url": "",
-        "summary": "# v26.10.11d（診斷版）\n  ### ✨更新內容:\n 1. 修正切換模式後「主機狀態」可能卡在等待回報（例：換氣弱）\n 2. 開機後自動把主機的左右燈歸零為關閉\n 3. 設定 > 資訊 新增兩行診斷數字；瀏覽器開 http://面板IP/diag 可看詳細紀錄\n"
+        "summary": "# v26.10.13d（診斷版）\n  ### ✨更新內容:\n 1. 主機回傳訊號微縫不可見的現場：改為仍能判定主機有回應，主機狀態不再一直「等待回報」\n 2. 承 v26.10.11d：切模式後主機狀態卡等待回報修正、開機燈歸零、資訊頁診斷數字、/diag 網頁\n"
       }
     }
   ]
