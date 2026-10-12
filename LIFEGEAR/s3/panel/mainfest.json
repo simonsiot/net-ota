@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.樂奇浴室暖風機觸控面板",
-  "version": "26.10.13d",
+  "version": "26.10.13d2",
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "ota": {
-        "md5": "8a7262be8ab92e278800bd26ef8ee312",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/LIFEGEAR/s3/panel/lg-bath-pannel-s261013d-e251105-v261013d.ota.bin",
+        "md5": "fa26c2240bf3b562808470c80e82760d",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/LIFEGEAR/s3/panel/lg-bath-pannel-s261013d2-e251105-v261013d2.ota.bin",
         "release_url": "",
-        "summary": "# v26.10.13d（診斷版）\n  ### ✨更新內容:\n 1. 主機回傳訊號微縫不可見的現場：改為仍能判定主機有回應，主機狀態不再一直「等待回報」\n 2. 承 v26.10.11d：切模式後主機狀態卡等待回報修正、開機燈歸零、資訊頁診斷數字、/diag 網頁\n"
+        "summary": "# v26.10.13d2（診斷版）\n  ### ✨更新內容:\n 1. 主機回傳微縫不可見的現場：改以「頁型是否閒置／下指令後有無變化」判斷主機狀態，不再一直等待回報\n 2. 新增「Light Invert 照明反相」開關（HA／面板網頁）：燈接 NC 或雙切電路、HA 開關與實燈相反時打開\n 3. 承 v26.10.11d：切模式後主機狀態卡等待回報修正、開機燈歸零、資訊頁診斷數字、/diag 網頁\n"
       }
     }
   ]
