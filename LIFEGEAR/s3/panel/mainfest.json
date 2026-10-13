@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.樂奇浴室暖風機觸控面板",
-  "version": "26.10.13d2",
+  "version": "26.10.13b",
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "ota": {
-        "md5": "fa26c2240bf3b562808470c80e82760d",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/LIFEGEAR/s3/panel/lg-bath-pannel-s261013d2-e251105-v261013d2.ota.bin",
+        "md5": "8b59f4a2a950e2e9d184fd66f463c86d",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/LIFEGEAR/s3/panel/lg-bath-pannel-s261013b-e251105-v261013b.ota.bin",
         "release_url": "",
-        "summary": "# v26.10.13d2（診斷版）\n  ### ✨更新內容:\n 1. 主機回傳微縫不可見的現場：改以「頁型是否閒置／下指令後有無變化」判斷主機狀態，不再一直等待回報\n 2. 新增「Light Invert 照明反相」開關（HA／面板網頁）：燈接 NC 或雙切電路、HA 開關與實燈相反時打開\n 3. 承 v26.10.11d：切模式後主機狀態卡等待回報修正、開機燈歸零、資訊頁診斷數字、/diag 網頁\n"
+        "summary": "# v26.10.13b\n  ### ✨更新內容:\n 1. 新增「Light Invert 照明反相」開關（HA／面板網頁）：燈的開關方向與實際相反時打開\n 2. 開機後自動把主機的左右燈歸零為關閉\n 3. 切換模式後主機狀態不再卡在「等待回報」；主機訊號辨識不完整的現場也能正確顯示關機／運轉中\n 4. 移除診斷版的除錯訊息與資訊頁診斷數字\n"
       }
     }
   ]
