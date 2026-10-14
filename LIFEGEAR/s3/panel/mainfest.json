@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.樂奇浴室暖風機觸控面板",
-  "version": "26.10.13b",
+  "version": "26.10.14",
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "ota": {
-        "md5": "8b59f4a2a950e2e9d184fd66f463c86d",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/LIFEGEAR/s3/panel/lg-bath-pannel-s261013b-e251105-v261013b.ota.bin",
+        "md5": "13e37b9a9c84fc447fe3c12b2a9d66d4",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/LIFEGEAR/s3/panel/lg-bath-pannel-s261014-e251105-v261014.ota.bin",
         "release_url": "",
-        "summary": "# v26.10.13b\n  ### ✨更新內容:\n 1. 新增「Light Invert 照明反相」開關（HA／面板網頁）：燈的開關方向與實際相反時打開\n 2. 開機後自動把主機的左右燈歸零為關閉\n 3. 切換模式後主機狀態不再卡在「等待回報」；主機訊號辨識不完整的現場也能正確顯示關機／運轉中\n 4. 移除診斷版的除錯訊息與資訊頁診斷數字\n"
+        "summary": "# v26.10.14\n  ### ✨更新內容:\n 1. 主畫面可顯示左燈、右燈兩顆電燈鈕（設定 → 設定 → 主畫面電燈開關，預設關閉）：白色燈泡＝關、黃色亮燈＝開\n 2. 開機保護縮短為 5 秒，期間畫面以白色遮罩顯示「開機保護中，請稍候」，消失後即可操作\n 3. 設定頁開關按鈕外觀微調\n"
       }
     }
   ]
