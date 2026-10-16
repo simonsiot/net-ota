@@ -1,14 +1,14 @@
 {
   "name": "SimonIoT.樂奇浴室暖風機觸控面板",
-  "version": "26.10.14",
+  "version": "26.10.15",
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "ota": {
-        "md5": "13e37b9a9c84fc447fe3c12b2a9d66d4",
-        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/LIFEGEAR/s3/panel/lg-bath-pannel-s261014-e251105-v261014.ota.bin",
+        "md5": "8402310adec544a668790b517a152f09",
+        "path": "https://github.com/simonsiot/net-ota/raw/refs/heads/main/LIFEGEAR/s3/panel/lg-bath-pannel-s261015-e251105-v261015.ota.bin",
         "release_url": "",
-        "summary": "# v26.10.14\n  ### ✨更新內容:\n 1. 主畫面可顯示左燈、右燈兩顆電燈鈕（設定 → 設定 → 主畫面電燈開關，預設關閉）：白色燈泡＝關、黃色亮燈＝開\n 2. 開機保護縮短為 5 秒，期間畫面以白色遮罩顯示「開機保護中，請稍候」，消失後即可操作\n 3. 設定頁開關按鈕外觀微調\n"
+        "summary": "# v26.10.15\n  ### ✨更新內容:\n 1. 支援 Matter：設定 → 配對 顯示 QR，可直接加入 Apple 家庭、Google Home（乾燥/暖房/涼風/換氣四個開關＋左右燈）\n 2. 設定頁新增「燈光反向」；「首次觸控僅喚醒」改為固定開啟\n 3. 螢幕睡眠預設 3 分鐘、自動回首頁預設 1 分鐘\n 4. 改善畫面穩定度（寫入設定時不再閃動）\n"
       }
     }
   ]
